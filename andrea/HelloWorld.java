@@ -11,5 +11,6 @@ public class HelloWorld {
         for (String s : array) {
             System.out.println(s);
         }
+        System.out.println("small change");
     }
 }
