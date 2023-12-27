@@ -4,5 +4,12 @@ public class HelloWorld {
         for (int i = 0; i < 6; i++) {
             System.out.println("siiiiii");
         } 
+        String[] array = new String[3];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = "ahmed";
+        }
+        for (String s : array) {
+            System.out.println(s);
+        }
     }
 }
