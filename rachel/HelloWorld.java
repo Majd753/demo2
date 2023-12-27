@@ -5,9 +5,9 @@ public class HelloWorld {
             System.out.println("siiiiii");
         } 
         String[] array = new String[3];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = "ahmed";
-        }
+        array[0] = "Ahmed";
+        array[1] = "Moh";
+        array[2] = "Khaled";
         for (String s : array) {
             System.out.println(s);
         }
